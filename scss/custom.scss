@@ -3,25 +3,61 @@
 
 // Import Google fonts here
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3&display=swap');
+
 
 
 // Include any default variable overrides here (colors, font sizes, font family, etc..)
+
+$primary: #A04ADD;
+$secondary: #3B53C7;
+$success: #A4D882;
+$info: #59C1EF;
+$warning: #FFF689;
+$danger: #E5446D;
+$light: #f2f2f2;
+$dark: #181853;
+$body-bg-color: light;
+
 
 
 
 // Adjust nav link hover color here
 
-
+$navbar-dark-hover-color:#A04ADD;
 
 // Typography
 // Change font family for base text
+$font-family-sans-serif: "Source Sans 3", sans-serif;
+$font-family-serif: "Libre Baskerville", serif;
 
 
 // Change font family for headings
-
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Libre Baskerville';
+}
 
 
 // Change font sizes for h1-h6 using values in assignment
+h1{
+    font-size: 3.052rem;
+}
+
+h2{
+    font-size: 2.441rem;
+}
+h3{
+    font-size: 1.953rem;
+}
+h4{
+    font-size: 1.563rem;
+}
+h5{
+    font-size: 1.25rem;
+}
+h6{
+    font-size: 1rem;
+}
 
 
 
@@ -30,3 +66,6 @@
 // Add additional custom code here
 
 // Target .navbar-brand and change font-family to use 'Libre Baskerville'.
+.navbar-brand{
+    font-family: 'Libre Baskerville';
+}
